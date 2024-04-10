@@ -14,18 +14,18 @@ jobs:
       - name: ダウンロード対象ファイルの取得
         run: |
           mkdir -p data  # ダウンロード先のディレクトリを作成
-          curl -L "https://km.bus-vision.jp/gtfs/toshibus/gtfsFeed" -o data/toshibus.zip
+          curl -L "https://km.bus-vision.jp/gtfs/sankobus/gtfsFeed" -o data/sankobus.zip
 
       - name: ZIPファイルの解凍
         run: |
-          unzip data/toshibus.zip -d data/toshibus
+          unzip data/sankobus.zip -d data/sankobus
           # 解凍後のファイルを配置するディレクトリを指定してください
 
       - name: GitHub Pagesへデプロイ
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./data/toshibus  # GitHub Pagesにデプロイするディレクトリを指定
+          publish_dir: ./data/sankobus  # GitHub Pagesにデプロイするディレクトリを指定
           # publish_dirはダウンロードしたファイルがあるディレクトリに設定してください
           publish_branch: gh-pages
 
