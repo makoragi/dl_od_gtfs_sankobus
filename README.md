@@ -1,6 +1,6 @@
-# dl_od_gtfs_toshibus
+# dl_od_gtfs_sankobus
 
-熊本都市バスのGTFS-JPデータです。gh-pagesブランチにデプロイしています。a
+熊本産交バスのGTFS-JPデータです。gh-pagesブランチにデプロイしています。
 
 熊本におけるGTFS-JPのデータ利活用推進を目的に、過去データを溜める取り組みをしています。
 
