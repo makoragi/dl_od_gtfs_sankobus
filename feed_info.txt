@@ -1,2 +1,2 @@
 "feed_publisher_name","feed_publisher_url","feed_lang","feed_start_date","feed_end_date","feed_version"
-"九州産交バス","https://www.sankobus.jp/","ja","20240401","20240728","20240401_20240426"
+"九州産交バス","https://www.sankobus.jp/","ja","20240401","20240729","20240401_20240427"
